@@ -1,0 +1,82 @@
+.cart{
+  border-radius: 20px;
+  box-shadow: 0px 0px 12px #0000001F;
+
+  margin-bottom: 31px;
+
+  .cart__header{
+    background-color: #77b926;
+    border-radius: 20px 20px 0 0;
+
+    .cart__header--h4{
+      font-size: 24px;
+      font-family: Lexend;
+      font-weight: bold;
+      line-height: 34px;
+      color: #FFFFFF;
+      text-align: center;
+      margin: 0;
+      padding: 20px 0 15px 0;
+    }
+  }
+
+  .cart__description{
+    font-size: 18px;
+    font-family: Lexend;
+    color: #4E4E4E;
+    line-height: 32px;
+
+    padding: 25px 20px 0 20px;
+
+    .cart__description--planList{
+      list-style: none;
+      padding: 0;
+
+      border-bottom: 1px solid #77b926;
+      padding-bottom: 26.5px;
+      li{
+        padding: 0;
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+        span{
+          border-radius: 50%;
+          display: block;
+          width: 8px;
+          height: 8px;
+          margin-right: 10px;
+          background: #77b926;
+        }
+      }
+    }
+  }
+  .cart__price{
+    font-family: Lexend;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    strong{
+      font-size: 18px;
+      font-weight: bold;
+      color: #4E4E4E;
+      line-height: 32px;
+      margin: 0;
+    }
+
+    h5{
+      margin: 0;
+      color: #77B926;
+      font-family: Lexend;
+      font-size: 36px;
+      font-weight: bold;
+      line-height: 32px;
+    }
+
+    button{
+      margin-top: 21px !important;
+      margin-bottom: 30px;
+    }
+  }
+}

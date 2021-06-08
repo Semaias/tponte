@@ -1,0 +1,42 @@
+.FormBuy{
+  margin-top: 70px;
+  margin-bottom: 80px;
+
+  .FormBuy__title{
+    font-size: 36px;
+    font-family: Lexend;
+    font-weight: bold;
+    line-height: 82px;
+    margin-bottom: 8px;
+
+    @media only screen and (max-width: 992px) {
+      line-height: 32px;
+    }
+  }
+
+  .FormBuy__containerInput{
+    display: flex;
+    flex-direction: column;
+    font-family: Lexend;
+    font-size: 18px;
+    line-height: 32px;
+    color: #121212;
+    margin-top: 30px;
+
+    @media only screen and (max-width: 992px) {
+      margin-top: 10px;
+    }
+
+    .FormBuy__containerInput--label{
+      margin: 0;
+    }
+
+    .FormBuy__containerInput--input{
+      width: 100%;
+      border: 1px solid #121212;
+      border-radius: 0;
+      outline: none;
+      padding: 10px 18px;
+    }
+  }
+}

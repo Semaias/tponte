@@ -1,0 +1,78 @@
+.logoMosaico{
+  margin-top: 100px;
+  margin-bottom: -121px;
+  width: 100%;
+  z-index: 1;
+  @media only screen and (max-width: 992px) {
+    margin-bottom: -42px;
+  }
+}
+
+.WeWantToKnow{
+  background: #121212;
+  padding: 100px 0 100px 0;
+  z-index: 2;
+
+  @media only screen and (max-width: 992px) {
+    padding: 75px 0 84px 0;
+  }
+
+  .WeWantToKnow__content{
+    .WeWantToKnow__content--title{
+      font-size: 72px;
+      font-weight: bold;
+      font-family: Lexend;
+      text-align: left;
+      line-height: 82px;
+      color: #FFFFFF;
+      margin: 0;
+
+      @media only screen and (max-width: 992px) {
+        font-size: 36px;
+        line-height: 42px;
+      }
+    }
+
+    .WeWantToKnow__content--description{
+      font-family: Lexend;
+      font-size: 22px;
+      line-height: 32px;
+      text-align: left;
+      color: #FFFFFF;
+      margin: 23px 0 0 0;
+      padding: 0 150px 0 0;
+      @media only screen and (max-width: 992px) {
+        padding: 0 77px 0 0;
+        font-size: 22px;
+        line-height: 32px;
+      }
+    }
+  }
+
+  .WeWantToKnow__button{
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+    .WeWantToKnow__button--link{
+      font-size: 22px;
+      font-family: Lexend;
+      color: #FFFFFF;
+
+      background: #8D19F7;  
+      padding: 11px 36px;
+
+      text-decoration: none;
+
+      border-radius: 30px;
+
+      svg{
+        margin-left: 19px;
+      }
+
+      @media only screen and (max-width: 992px) {
+        margin-top: 30px;
+      }
+    }
+  }
+}

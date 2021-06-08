@@ -1,0 +1,20 @@
+.KnowPlans__line{
+  margin-bottom: 49px;
+}
+
+.KnowPlans{
+  .KnowPlans__h3{
+    margin-top: 70px;
+    margin-bottom: 70px;
+
+    color: #121212;
+    font-family: Lexend;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 82px;
+
+    @media only screen and (max-width: 992px) {
+      line-height: 42px;
+    }
+  }
+}

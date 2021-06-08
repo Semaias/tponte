@@ -1,0 +1,73 @@
+.containerConnectingPeople{
+  margin: 90px 0 50px 0;
+  font-family: Lexend;
+
+
+
+  @media only screen and (min-width: 992px) {
+    margin-top: 61px;
+    margin-bottom: 66px;
+    align-items: center;
+  }
+
+  .containerConnectingPeople__h3{
+    color: #121212;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 42px;
+    margin-bottom: 32px;
+
+    @media only screen and (min-width: 992px) {
+      margin: 0;
+
+      font-size: 72px;
+      line-height: 72px;
+    }
+  }
+
+  .containerConnectingPeople__p{
+    color: #60646C;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+  
+    
+    @media only screen and (min-width: 992px) {
+      font-size: 22px;
+      line-height: 32px;
+    }
+  }
+}
+
+.imagesMobile{
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  flex-wrap: nowrap !important;
+  .imagesMobile__image{
+    margin: 0;
+    padding-right: 0;
+    padding-left: 0;
+
+    &:first-child{
+      padding-left: 15px;
+    }
+  }
+}
+
+.imagesDesktop{
+  margin-top: 2px;
+}
+
+.imagesDesktop__image{
+  padding-left: 0 !important;
+}
+
+.imagesDesktop__image--second{
+  padding: 0 2px 0 0 !important;
+}
+
+.imagesDesktop__image--first{
+  padding-right: 2px !important;
+}  

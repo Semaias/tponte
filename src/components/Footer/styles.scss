@@ -1,0 +1,78 @@
+.footerCard {
+  z-index: 1 !important;
+
+  background: url("../../assets/img/bg-footer.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  @media only screen and (max-width: 992px) {
+    background: url("../../assets/img/bg-footerMobile.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .footerCard__content {
+    width: 100%;
+    background: rgba(18, 18, 18, 0.75);
+
+    .footerCard__content--h2 {
+      padding: 65px 0 106px 0;
+      margin: 0;
+
+      font-size: 48px;
+      font-weight: bold;
+
+      font-family: Lexend;
+      color: #ffffff;
+    }
+  }
+}
+
+.footerCardMobile,
+.footerCardDesktop {
+  margin-top: -65px;
+}
+
+.footerCard__containerButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 30px;
+
+  border-bottom: 1px solid #bac7d3;
+  margin-left: 0;
+
+  .footerCard__containerButton--buttonViewMore {
+    display: flex;
+    align-items: center;
+
+    color: #121212;
+    font-size: 22px;
+    font-family: Lexend;
+
+    svg {
+      margin-left: 10px;
+    }
+
+    margin-bottom: 60px;
+  }
+}
+
+.containerFooterForm {
+  background: #121212 url("../../assets/img/footer.png");
+  background-repeat: no-repeat;
+
+  background-position: 5% 110%;
+  background-size: 1200px;
+
+  @media only screen and (min-width: 992px) {
+    background-position: 248% 150%;
+    background-size: 1550px;
+  }
+
+  padding: 94px 0 40px 0;
+  margin: 74px 0 0 0;
+}

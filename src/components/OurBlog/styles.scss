@@ -1,0 +1,42 @@
+.OurBlog{
+  margin-bottom: 6px;
+
+  .OurBlog__title{
+    font-family: Lexend;
+    font-size: 48px;
+    color: #121212;
+    line-height: 58px;
+    font-weight: bold;
+    margin-bottom: 70px;  
+    margin-top: 120px;
+  }
+
+  .OurBlog__post{
+    margin-bottom: 40px;
+
+    .OurBlog__post--title{
+      font-family: Lexend;
+      font-size: 24px;
+      font-weight: bold;
+      color: #121212;
+
+      line-height: 24px;
+      margin-top: 18px;
+      margin-bottom: 0;
+    }
+    .OurBlog__post--description{
+      font-family: Lexend;
+      font-size: 18px;
+      line-height: 32px;
+
+      color: #60646C;
+      margin-top: 10px;
+      margin-bottom: 0;
+
+      @media only screen and (max-width: 992px) {
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+  }
+}
