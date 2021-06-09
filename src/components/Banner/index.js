@@ -20,7 +20,7 @@ const Banner = () => (
               </span>
               <span className="banner__span">inovação</span>
             </h1>
-            <Link to="/s" className="banner__AboutMore">
+            <Link to="/facaparte" className="banner__AboutMore">
               Saiba mais
               <BsArrowRight size={32} color="#FFFFFF" />
             </Link>

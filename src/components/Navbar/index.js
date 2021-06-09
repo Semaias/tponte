@@ -71,7 +71,10 @@ const Navbar = () => {
                       <a href="/#CheckTheSchedule" className="menu__list--link">Eventos</a>
                     </li>
                     <li className="menu__list">
-                      <a href="#SpeakWithUs" className="menu__list--link">Fale Conosco</a>
+                      <a href="/blog" className="menu__list--link">Blog</a>
+                    </li>
+                    <li className="menu__list">
+                      <a href="/#SpeakWithUs" className="menu__list--link">Fale Conosco</a>
                     </li>
                     <li className="menu__list">
                       <Button className="menu__list--link button-link" title="Participe" link="/facaparte" />
@@ -95,20 +98,20 @@ const Navbar = () => {
             <Link to="/" className="menu__list--link">Home</Link>
           </li>
           <li className="menu__list">
-            <Link to="/" className="menu__list--link">Conheça</Link>
+            <Link to="/#WeWantToKnow" className="menu__list--link">Conheça</Link>
           </li>
           <li className="menu__list">
-            <Link to="/" className="menu__list--link">Eventos</Link>
+            <Link to="/#CheckTheSchedule" className="menu__list--link">Eventos</Link>
           </li>
           <li className="menu__list">
-            <Link to="/" className="menu__list--link">Blog</Link>
+            <Link to="/blog" className="menu__list--link">Blog</Link>
           </li>
           <li className="menu__list">
-            <Link to="/" className="menu__list--link">Fale Conosco</Link>
+            <Link to="/#SpeakWithUs" className="menu__list--link">Fale Conosco</Link>
           </li>
         </div>
         <li className="menu__button">
-          <Button className="menu__list--link" title="Participe" link="/" />
+          <Button className="menu__list--link" title="Participe" link="/facaparte" />
         </li>
       </nav>
     </>
