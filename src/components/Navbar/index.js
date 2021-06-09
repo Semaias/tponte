@@ -71,7 +71,7 @@ const Navbar = () => {
                       <a href="/#CheckTheSchedule" className="menu__list--link">Eventos</a>
                     </li>
                     <li className="menu__list">
-                      <a href="/blog" className="menu__list--link">Blog</a>
+                      <Link to="/blog" className="menu__list--link">Blog</ Link>
                     </li>
                     <li className="menu__list">
                       <a href="/#SpeakWithUs" className="menu__list--link">Fale Conosco</a>
