@@ -10,7 +10,7 @@ const CheckTheSchedule = () => (
   <Container>
     <Row>
       <Col sm={12} lg={6} className="CheckTheSchedule">
-        <div className="CheckTheSchedule__title">
+        <div className="CheckTheSchedule__title" id="CheckTheSchedule">
           <h3 className="CheckTheSchedule__title--h3">Confira a agenda de eventos</h3>
         </div>
       </Col>

@@ -19,7 +19,7 @@ const WeWantToKnow = () => (
       <Container>
         <Row>
           <Col lg={9}>
-            <div className="WeWantToKnow__content">
+            <div className="WeWantToKnow__content" id="WeWantToKnow">
               <h3 className="WeWantToKnow__content--title">
                 Queremos conhecer sua STARTUP
               </h3>

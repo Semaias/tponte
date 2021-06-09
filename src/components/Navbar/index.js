@@ -62,19 +62,19 @@ const Navbar = () => {
                   </div>
                   <div className="menu__content">
                     <li className="menu__list">
-                      <Link to="/" className="menu__list--link">Home</Link>
+                      <Link to="/" className="menu__list--link">Home</ Link>
                     </li>
                     <li className="menu__list">
-                      <Link to="/" className="menu__list--link">Conheça</Link>
+                      <a href="/#WeWantToKnow" className="menu__list--link">Conheça</a>
                     </li>
                     <li className="menu__list">
-                      <Link to="/" className="menu__list--link">Eventos</Link>
+                      <a href="/#CheckTheSchedule" className="menu__list--link">Eventos</a>
                     </li>
                     <li className="menu__list">
-                      <Link to="/" className="menu__list--link">Fale Conosco</Link>
+                      <a href="#SpeakWithUs" className="menu__list--link">Fale Conosco</a>
                     </li>
                     <li className="menu__list">
-                      <Button className="menu__list--link button-link" title="Participe" link="/" />
+                      <Button className="menu__list--link button-link" title="Participe" link="/facaparte" />
                     </li>
                   </div>
                 </nav>
