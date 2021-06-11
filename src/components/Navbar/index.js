@@ -26,7 +26,7 @@ const Navbar = () => {
   function handleOpenMenu() {
     dispatch(setMenu(!isOpen));
   }
-
+  
   useEffect(() => {
     function handleScroll() {
       if (window.scrollY > 10 || location.pathname !== '/') {
@@ -95,22 +95,22 @@ const Navbar = () => {
         </div>
         <div className="menuMobile__content">
           <li className="menu__list">
-            <Link to="/" className="menu__list--link">Home</Link>
+            <Link to="/" onClick={handleOpenMenu} className="menu__list--link">Home</Link>
           </li>
           <li className="menu__list">
-            <Link to="/#WeWantToKnow" className="menu__list--link">Conheça</Link>
+            <Link to="/#WeWantToKnow" onClick={handleOpenMenu} className="menu__list--link">Conheça</Link>
           </li>
-          <li className="menu__list">
+          <li className="menu__list" onClick={handleOpenMenu}>
             <Link to="/#CheckTheSchedule" className="menu__list--link">Eventos</Link>
           </li>
-          <li className="menu__list">
+          <li className="menu__list" onClick={handleOpenMenu}>
             <Link to="/blog" className="menu__list--link">Blog</Link>
           </li>
-          <li className="menu__list">
+          <li className="menu__list" onClick={handleOpenMenu}>
             <Link to="/#SpeakWithUs" className="menu__list--link">Fale Conosco</Link>
           </li>
         </div>
-        <li className="menu__button">
+        <li className="menu__button" onClick={handleOpenMenu}>
           <Button className="menu__list--link" title="Participe" link="/facaparte" />
         </li>
       </nav>
